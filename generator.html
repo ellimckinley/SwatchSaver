@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>SwatchSaver Generator</title>
+  </head>
+
+  <body class ="bg-sky-950 font-sans h-96 flex justify-center items-center">
+    <div class = "w-5/6">
+
+    <header class="h-32 flex justify-center items-center">
+        <button class="btnlight">Back</button>
+        <img src="./assets/images/swatchsaverlogo.png" alt="SwatchSaver logo" />
+        <button class="btnlight">☀️</button>
+    </header>
+    
+    <main>
+        <section class="color">
+            <form>
+                
+                <div class="search-box mx-auto my-auto w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4">
+                    <form class="flex flex-row">
+                        <span
+                            class="flex items-center bg-gray-100 rounded rounded-r-none border-0 px-3 font-bold text-grey-100">📓</span>
+                        <input
+                            class="h-16 bg-gray-100 text-grey-darker py-2 font-normal text-grey-darkest border border-gray-100 font-bold w-full py-1 px-2 outline-none text-lg text-gray-600"
+                            type="text" placeholder="What do you want to learn?">
+                        <span
+                            class="flex items-center bg-gray-100 rounded rounded-l-none border-0 px-3 font-bold text-grey-100">
+                            <button
+                                class="bg-gredient-dark hover:bg-gredient-light text-lg text-white font-bold py-3 px-6 rounded">Search</button>
+                        </span>
+                    </form>
+                </div>
+
+                <button class="btnshadow closebtn"></button>
+                <button class="btnshadow copybtn"></button>
+                <button class="btnshadow lockicon"></button>
+                <button class="btnshadow dragicon"></button>
+            </form>
+        </section>
+    </main>
+
+    <section>
+        <button class="btnlight">Generate</button>
+        <button class="btndark">Add Color</button>
+    </section>
+    </div>
+  </body>
+</html>
