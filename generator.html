@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>SwatchSaver Generator</title>
   </head>
 
-  <body class ="bg-sky-950 font-sans h-96 flex justify-center items-center">
+  <body class ="bg-sky-950 font-sans h-screen flex flex-col items-center">
     <div class = "w-5/6">
 
     <header class="h-32 flex justify-center items-center">
@@ -18,31 +18,26 @@
         <button class="btnlight">☀️</button>
     </header>
     
-    <main>
-        <section class="color">
-            <form>
-                
-                <div class="search-box mx-auto my-auto w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4">
-                    <form class="flex flex-row">
-                        <span
-                            class="flex items-center bg-gray-100 rounded rounded-r-none border-0 px-3 font-bold text-grey-100">📓</span>
-                        <input
-                            class="h-16 bg-gray-100 text-grey-darker py-2 font-normal text-grey-darkest border border-gray-100 font-bold w-full py-1 px-2 outline-none text-lg text-gray-600"
-                            type="text" placeholder="What do you want to learn?">
-                        <span
-                            class="flex items-center bg-gray-100 rounded rounded-l-none border-0 px-3 font-bold text-grey-100">
-                            <button
-                                class="bg-gredient-dark hover:bg-gredient-light text-lg text-white font-bold py-3 px-6 rounded">Search</button>
-                        </span>
-                    </form>
-                </div>
+    <main class="flex flex-col space-y-4">
+        <div class="rounded-full">
+            <section class="flex justify-center items-center bg-red-500 h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2 md:h-8 md:w-8 md:ml-2 md:pt-1 mr-2 pr-2 pl-2 pb-1 rounded-full"><span class="material-symbols-outlined">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 h-12 w-12 mr-2 pt-2 pr-2 pl-2 pb-1 rounded-full"><span class="material-symbols-outlined">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 h-12 w-12 mr-2 pt-2 pr-2 pl-2 pb-1 rounded-full"><span class="material-symbols-outlined">&#xf71e;</span></button>
+                    </div>
 
-                <button class="btnshadow closebtn"></button>
-                <button class="btnshadow copybtn"></button>
-                <button class="btnshadow lockicon"></button>
-                <button class="btnshadow dragicon"></button>
-            </form>
-        </section>
+                    <div class="flex items-center ml-auto">
+                        <div class="ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-300 placeholder-slate-300 h-12 w-64 ml-2 pt-1 pr-2 pl-4 pb-1 rounded-full focus:outline-none" placeholder="Enter HEX code"/> 
+                            <button type="button" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-300 pt-1 pr-2"><span class="material-symbols-outlined">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 h-12 w-12 ml-2 mr-4 pt-2 pr-2 pl-2 pb-1 rounded-full"><span class="material-symbols-outlined">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
 
     <section>
