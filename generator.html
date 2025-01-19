@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <title>SwatchSaver Generator</title>
   </head>
 
@@ -20,7 +19,7 @@
     
     <main class="flex flex-col space-y-4">
         <div class="rounded-full">
-            <section class="flex justify-center items-center bg-red-500 h-32">
+            <section class="section1 flex justify-center items-center h-32">
                 <form class="flex items-center justify-between w-full"> 
                     <div class="flex items-center">
                         <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
@@ -31,12 +30,139 @@
                     <div class="flex items-center ml-auto">
                         <div class="lg:ml-4 flex flex-row items-center relative">
                             <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
-                            <button type="button" class="absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
                         </div>
                         <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
                     </div>
                 </form>
             </section>
+
+            <section class="section2 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section3 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section4 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section5 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section5 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section6 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="section7 flex justify-center items-center h-32">
+                <form class="flex items-center justify-between w-full"> 
+                    <div class="flex items-center">
+                        <button class="btnshadow copybtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-4 md:pt:2 lg:h-12 lg:w-12 lg:ml-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe14d;</span></button>
+                        <button class="btnshadow lockicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe897;</span></button>
+                        <button class="btnshadow dragicon bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 ml-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:ml-2 sm:pt:2 md:h-10 md:w-10 md:ml-2 md:pt:2 lg:h-12 lg:w-12 lg:ml-2 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xf71e;</span></button>
+                    </div>
+
+                    <div class="flex items-center ml-auto">
+                        <div class="lg:ml-4 flex flex-row items-center relative">
+                            <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000"/> 
+                            <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
+                        </div>
+                        <button class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt-2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
+                    </div>
+                </form>
+            </section>
+
         </div>
     </main>
 
@@ -45,5 +171,6 @@
         <button class="btndark">Add Color</button>
     </section>
     </div>
+    <script src="assets/js/color.js"></script>
   </body>
 </html>
