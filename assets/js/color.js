@@ -1,7 +1,3 @@
-document.getElementById("generateButton").addEventListener("click", function () {
-    window.location.href = "generator.html";  
-});
-
 // Function to generate a random hex color
 function getRandomColor() {
     const letters = "0123456789ABCDEF";
