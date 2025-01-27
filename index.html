@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Darkmode Config -->
     <script>
       tailwind.config = {
         darkMode: 'class', // Ensure dark mode uses the 'class' strategy as opposed to the default media strategy with CDN
@@ -12,6 +14,7 @@
         },
       };
     </script>
+
     <title>SwatchSaver</title>
   </head>
 
@@ -31,13 +34,49 @@
             
             <div class="justify-items-center">
             <button id="generateButton" class="mt-4 w-72 sm:w-72 lg:w-96 xl:w-96 h-10 bg-slate-100 hover:bg-slate-400 dark:bg-cyan-800 dark:hover:bg-cyan-950 text-sky-900 dark:text-sky-50 rounded-3xl shadow-sm flex justify-center items-center">Generate</button>
-            <button class="mt-4 w-48 sm:w-48 md:w-64 lg:w-64 xl:w-64 h-10 bg-slate-100 hover:bg-slate-400 dark:bg-cyan-800 dark:hover:bg-cyan-950 text-sky-900 dark:text-sky-50 rounded-3xl shadow-sm flex justify-center items-center">Enter Color Values</button>
+            <button id="enterColorValue" class="mt-4 w-48 sm:w-48 md:w-64 lg:w-64 xl:w-64 h-10 bg-slate-100 hover:bg-slate-400 dark:bg-cyan-800 dark:hover:bg-cyan-950 text-sky-900 dark:text-sky-50 rounded-3xl shadow-sm flex justify-center items-center">Enter Color Values</button>
             </div>
+
+            <!-- Palette Size Modal -->
+            <div id="paletteSizeModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+              <div class="bg-white p-6 rounded-lg w-96">
+              <h2 class="text-lg font-bold">Select Palette Size (3-7)</h2>
+              <p class="text-gray-600 mt-1">Select how many colors you would like in your palette.</p>
+                <select id="paletteSizeSelect" class="w-full border p-2 mt-2">
+                  <option value="">-- Select Size --</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                </select>
+              <p id="paletteSizeError" class="hidden text-red-500 mt-2">Please select a valid size (3-7).</p>
+                <div class="flex justify-end gap-2 mt-4">
+                  <button id="cancelPaletteSize" class="bg-gray-300 px-4 py-2 rounded">Cancel</button>
+                  <button id="nextToHexInput" class="bg-cyan-800 text-white px-4 py-2 rounded">Next</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hex Input Modal -->
+            <div id="hexInputModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+              <div class="bg-white p-6 rounded-lg w-96">
+                <h2 class="text-lg font-bold">Enter Color Values</h2>
+                <div id="hexInputsContainer"></div>
+                <div id="hexInputError" class="hidden text-red-500 mt-2">Please enter valid hex codes.</div>
+                <div class="flex justify-end gap-2 mt-4">
+                  <button id="cancelHexInput" class="bg-gray-300 px-4 py-2 rounded">Cancel</button>
+                  <button id="confirmHexInput" class="bg-cyan-800 text-white px-4 py-2 rounded">Confirm</button>
+                </div>
+              </div>
+            </div>  
         
             <script src="assets/js/index.js"></script>
             <script src="assets/js/darkmode.js"></script>
         </main>
     </div>
-    
   </body>
-  </html>
+</html>
+
+<!-- light mode color palate -->
+<!-- bg-slate-100 hover:bg-slate-400 text-sky-900 dark:bg-cyan-800 dark:hover:bg-cyan-950 dark:text-sky-50 -->
