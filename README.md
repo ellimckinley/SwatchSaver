@@ -1,25 +1,39 @@
 
 # SwatchSaver Color Pallete Generator
 
-This application allows users to generate random color palletes, alone or in conjunction with known HEX codes. The user is able to drag and drop colors, lock colors, regenerate all unlocked swatches, regenerate individual swatch, copy hex codes. 
+![Logo](./assets/images/swatchsaverlogo.png)
+
+
+SwatchSaver is a web app to allow users to quickly make, save, and mange color palettes. Built using Tailwind CSS and JavaScript, the app allows users to generate adjustable sized color palettes, preview them in dynamically generated sections, and tweak/reroll individual HEX colors. Our aim is to give designers, devs, and artists a tool to create quick and intuitive color combinations with a clean and simple environment.
+
+
+**Our Why**
+- Existing palette creation tools are overly complicated and have tons of unnecessary features. Many platforms hide functionality behind paywalls which is really annoying when you want to access a simple tool with simple features. 
+- Creating a **Free** Solution: SwatchSaver was built to provide a clean, intuitive, accessible tool for anyone who wants to quickly create and manage color palettes
+
+## User Story
+
+As a user, 
+I want to generate color palettes,
+So that, I can experiment with different color combinations by locking, generating, and interact with different colors
 
 
 ## Authors
 
-- [@amaniakram](https://www.github.com/amaniakram)
-- [@ellimckinley](https://github.com/ellimckinley)
-- [@meglanghoffdesign](https://github.com/meglanghoffdesign)
+| author | github                                                    | contact            
+| -------| --------------------------------------------------------- | ------------------------------- | 
+| Amani Akram|[@amaniakram](https://www.github.com/amaniakram) | [![email](https://img.shields.io/badge/email-000?style=for-the-badge)](mailto:akramamani75@gmail.com) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amani-akram-193a3b2b0/)|
+| Elli McKinley |[@ellimckinley](https://github.com/ellimckinley) | [![portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge)](https://ellimckinley.github.io/portfolio/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellimckinley)|
+| Meg Langhoff |[@meglanghoffdesign](https://github.com/meglanghoffdesign) | [![email](https://img.shields.io/badge/email-000?style=for-the-badge)](mailto:meglanghoff@gmail.com) |
 
-## Acknowledgements
-
- - [Readme Template via readme.so](https://readme.so/editor)
 
 ## Technologies Used
 
 - HTML
-- JavaScript
 - TailwindCSS CDN
-- Material Icons
+- JavaScript
+- Google Fonts Material Icons
+
 
 ## Color Reference
 
@@ -42,10 +56,12 @@ Insert gif or link to demo
 
 ## Features
 
-- Light/dark mode toggle
-- Prompt
-- Alert
-- Responsive Design
+- Add HEX Color Codes into palettes
+- Random color generation
+- Add and remove colors swatches
+- Light and Dark mode
+- Lock and Copy functionality
+- Drag and drop color sections with in the palette
 
 
 ## Screenshots - TBD
@@ -55,28 +71,38 @@ Insert gif or link to demo
 or ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 
-
 ## Roadmap
 
-- Additional browser support
+- **Additional Color Control:** More precise tools for color customization.
 
-- Add more integrations
+- **Palette Sharing:** Easy sharing options for collaboration.
+
+- **Account Creation:** Allow users to save and access past swatches.
+
+- **AI-Color Suggestions:** Smart recommendations based on user preferences.
+
+- **Expanded Color Formats:** Support for more color formats (e.g., HEX, RGB, CMYK).
+
+- **Bug Fixes:** Resolving existing issues for a smoother experience.
 
 
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
+See the [open issues](https://github.com/ellimckinley/SwatchSaver/issues) for a full list of proposed features (and known issues).
 
 
 ## Lessons Learned
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
+During our first Coding Bootcamp project, we gained valuable insights and skills. While the journey was challenging, our accomplishments were truly rewarding. Here are some key takeaways:
+
+- **Mastering TailwindCSS:** Initially, TailwindCSS felt overwhelming, but once we overcame the learning curve, its flexibility and efficiency became apparent.
+
+- **Good code layout is vital:** Managing large JavaScript files can quickly become overwhelming without proper organization. A clear and consistent structure is essential for maintainability.
+
+- **Collaborative Git Practices:** Using GitHub for team collaboration was a new experience for all of us. We learned the importance of communication and version control in a shared coding environment.
 
 
 ## License
 
-[MIT](/Users/ellimckinley/Desktop/Developer/project-one/SwatchSaver/LICENSE)
-
+Distributed under the [MIT License](./LICENSE). See `LICENSE.txt` for more information.
 
 <!-- ## FAQ
 
@@ -89,8 +115,15 @@ Answer 1
 Answer 2 -->
 
 
-<!-- ## Appendix
+## Support and Feedback
 
-Any additional information goes here -->
+Please open issue on GitHub: [New Issue](https://github.com/ellimckinley/SwatchSaver/issues/new?template=Blank+issue)
 
-https://ellimckinley.github.io/SwatchSaver/
+## Acknowledgements
+
+ - Readme Template via [readme.so](https://readme.so/editor)
+
+## Appendix
+
+ - Deployed URL: [https://ellimckinley.github.io/SwatchSaver/](https://ellimckinley.github.io/SwatchSaver/)
+
