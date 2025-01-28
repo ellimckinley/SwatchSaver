@@ -14,6 +14,12 @@ This application allows users to generate random color palletes, alone or in con
 
  - [Readme Template via readme.so](https://readme.so/editor)
 
+## Technologies Used
+
+- HTML
+- JavaScript
+- TailwindCSS CDN
+- Material Icons
 
 ## Color Reference
 
@@ -42,16 +48,12 @@ Insert gif or link to demo
 - Responsive Design
 
 
-## Screenshots
+## Screenshots - TBD
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 or ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
-
-## Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
 
 
 ## Roadmap
@@ -66,16 +68,6 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 For support, email fake@fake.com or join our Slack channel.
 
 
-## Tech Stack
-
-**Client:** TailwindCSS
-
-
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
-
 ## Lessons Learned
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
@@ -86,7 +78,7 @@ What did you learn while building this project? What challenges did you face and
 [MIT](/Users/ellimckinley/Desktop/Developer/project-one/SwatchSaver/LICENSE)
 
 
-## FAQ
+<!-- ## FAQ
 
 #### Question 1
 
@@ -94,10 +86,11 @@ Answer 1
 
 #### Question 2
 
-Answer 2
+Answer 2 -->
 
 
-## Appendix
+<!-- ## Appendix
 
-Any additional information goes here
+Any additional information goes here -->
 
+https://ellimckinley.github.io/SwatchSaver/
