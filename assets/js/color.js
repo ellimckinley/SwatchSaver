@@ -43,7 +43,7 @@ function addNewSection(color = null) {
             </div>
             <div class="flex items-center ml-auto">
                 <div class="lg:ml-4 flex flex-row items-center relative">
-                    <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none" placeholder="#000000" value="${newColor}"/> 
+                    <input type="text" class="grow bg-slate-950/[.40] text-slate-50 placeholder-slate-300 h-8 w-28 mr-2 pr-2 pl-4 pb-2 pt-2 rounded-full sm:h-8 sm:w-28 sm:pt:2 md:h-10 md:w-64 md:pt:2 lg:h-12 lg:w-96 lg:pb-2 focus:outline-none text-sm sm:text-base md:text-base lg:text-xl" placeholder="#000000" value="${newColor}"/> 
                     <button type="button" class="refresh absolute right-2 top-1/2 transform -translate-y-1/2 text-slate-300 hover:text-slate-50 pb-1 pt-1 pr-4 lg:pb-0"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe627;</span></button>                
                 </div>
                 <button type="button" class="btnshadow closebtn bg-slate-950/[.40] text-slate-300 hover:text-slate-50 h-8 w-8 mr-2 pr-2 pt-1 pl-2 pb-1 rounded-full sm:h-8 sm:w-8 sm:mr-2 sm:pt:2 md:h-10 md:w-10 md:mr-4 md:pt:2 lg:h-12 lg:w-12 lg:mr-4 lg:pt:2"><span class="material-symbols-outlined text-sm sm:text-base md:text-base lg:text-xl">&#xe5cd;</span></button>
