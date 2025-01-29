@@ -49,10 +49,10 @@ So that, I can experiment with different color combinations by locking, generati
 | Text Color Light| ![#0C4A6E ](https://placehold.co/15x15/0C4A6E/0C4A6E.png) #0C4A6E|
 | Text Color Dark | ![#E0F2FE ](https://placehold.co/15x15/E0F2FE/E0F2FE.png) #E0F2FE|
 
-<!-- 
+
 ## Demo
 
-Insert gif or link to demo -->
+![Demo](./assets/images/SwatchSaver_loom.mp4)
 
 
 ## Features
