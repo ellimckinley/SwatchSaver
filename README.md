@@ -19,7 +19,7 @@ So that, I can experiment with different color combinations by locking, generati
 
 ## Demo
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/74fe84bb8347479297c208ea325eba6a?sid=5d9c7e89-875a-48de-bce2-8a06f78b4327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[![Watch the video!](https://cdn.loom.com/sessions/thumbnails/74fe84bb8347479297c208ea325eba6a-ca82597f78782515-full-play.gif)](https://www.loom.com/embed/74fe84bb8347479297c208ea325eba6a?sid=c21a9552-d72b-40dc-9a83-a7c8a579f584)
 
 
 ## Authors
