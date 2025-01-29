@@ -22,9 +22,10 @@ So that, I can experiment with different color combinations by locking, generati
 
 | author | github                                                    | contact            
 | -------| --------------------------------------------------------- | ------------------------------- | 
-| Amani Akram|[@amaniakram](https://www.github.com/amaniakram) | [![email](https://img.shields.io/badge/email-000?style=for-the-badge)](mailto:akramamani75@gmail.com) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amani-akram-193a3b2b0/)|
-| Elli McKinley |[@ellimckinley](https://github.com/ellimckinley) | [![portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge)](https://ellimckinley.github.io/portfolio/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellimckinley)|
-| Meg Langhoff |[@meglanghoffdesign](https://github.com/meglanghoffdesign) | [![email](https://img.shields.io/badge/email-000?style=for-the-badge)](mailto:meglanghoff@gmail.com) |
+| Amani Akram|[@amaniakram](https://www.github.com/amaniakram) | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amani-akram-193a3b2b0/)|
+| Elli McKinley |[@ellimckinley](https://github.com/ellimckinley) |  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellimckinley)|
+| Meg Langhoff |[@meglanghoffdesign](https://github.com/meglanghoffdesign) |  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meg-langhoff) |
+
 
 
 ## Technologies Used
@@ -48,10 +49,10 @@ So that, I can experiment with different color combinations by locking, generati
 | Text Color Light| ![#0C4A6E ](https://placehold.co/15x15/0C4A6E/0C4A6E.png) #0C4A6E|
 | Text Color Dark | ![#E0F2FE ](https://placehold.co/15x15/E0F2FE/E0F2FE.png) #E0F2FE|
 
-
+<!-- 
 ## Demo
 
-Insert gif or link to demo
+Insert gif or link to demo -->
 
 
 ## Features
@@ -64,11 +65,11 @@ Insert gif or link to demo
 - Drag and drop color sections with in the palette
 
 
-## Screenshots - TBD
+<!-- ## Screenshots - TBD
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-or ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+or ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title") -->
 
 
 ## Roadmap
@@ -103,7 +104,6 @@ During our first Coding Bootcamp project, we gained valuable insights and skills
 ## License
 
 Distributed under the [MIT License](./LICENSE). See `LICENSE.txt` for more information.
-
 <!-- ## FAQ
 
 #### Question 1
