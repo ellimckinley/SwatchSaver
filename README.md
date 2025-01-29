@@ -17,6 +17,10 @@ As a user,
 I want to generate color palettes,
 So that, I can experiment with different color combinations by locking, generating, and interact with different colors
 
+## Demo
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/74fe84bb8347479297c208ea325eba6a?sid=5d9c7e89-875a-48de-bce2-8a06f78b4327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ## Authors
 
@@ -50,9 +54,6 @@ So that, I can experiment with different color combinations by locking, generati
 | Text Color Dark | ![#E0F2FE ](https://placehold.co/15x15/E0F2FE/E0F2FE.png) #E0F2FE|
 
 
-## Demo
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/74fe84bb8347479297c208ea325eba6a?sid=5d9c7e89-875a-48de-bce2-8a06f78b4327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
 ## Features
