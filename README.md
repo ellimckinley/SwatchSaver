@@ -1,7 +1,7 @@
 
 # SwatchSaver Color Pallete Generator
 
-![Logo](./assets/images/swatchsaverlogo.png)
+![Logo](./assets/images/swatchsaverlogo_light.png)
 
 
 SwatchSaver is a web app to allow users to quickly make, save, and mange color palettes. Built using Tailwind CSS and JavaScript, the app allows users to generate adjustable sized color palettes, preview them in dynamically generated sections, and tweak/reroll individual HEX colors. Our aim is to give designers, devs, and artists a tool to create quick and intuitive color combinations with a clean and simple environment.
@@ -24,7 +24,7 @@ So that, I can experiment with different color combinations by locking, generati
 | -------| --------------------------------------------------------- | ------------------------------- | 
 | Amani Akram|[@amaniakram](https://www.github.com/amaniakram) | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amani-akram-193a3b2b0/)|
 | Elli McKinley |[@ellimckinley](https://github.com/ellimckinley) |  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ellimckinley)|
-| Meg Langhoff |[@meglanghoffdesign](https://github.com/meglanghoffdesign) |  [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meg-langhoff) |
+| Meg Langhoff |[@meglanghoffdesign](https://github.com/meglanghoffdesign) |  [![email](https://img.shields.io/badge/email-000?style=for-the-badge)](mailto:meglanghoff@gmail.com) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meg-langhoff)|
 
 
 
